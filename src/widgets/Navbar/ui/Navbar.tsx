@@ -9,6 +9,7 @@ export const Navbar = ({className}:NavbarProps) => {
     return (
         <div className={classNames(cls.Navbar,{},[className])}>
             <AppLink to="/about" theme={AppLinkTheme.PRIMARY}>aboutPage</AppLink>
+            <AppLink to="/counter" theme={AppLinkTheme.PRIMARY}>counterPage</AppLink>
             <AppLink to="/" theme={AppLinkTheme.SECONDARY}>mainPage</AppLink>
         </div>
     );

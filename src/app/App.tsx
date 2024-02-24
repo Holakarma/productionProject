@@ -12,7 +12,7 @@ const App = () => {
             <button onClick={()=>{
                 toggleTheme()
             }}>
-                click
+                toggle theme
             </button>
             <Navbar/>
             <AppRouter>
